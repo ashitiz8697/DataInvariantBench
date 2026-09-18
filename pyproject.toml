@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datainvariant"
+version = "0.1.0"
+description = "A metamorphic benchmark for representation invariance in data-analysis agents"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Shitiz Kumar"}]
+dependencies = []
+
+[project.optional-dependencies]
+publication = [
+  "openpyxl==3.1.5",
+  "reportlab==4.4.9",
+]
+figures = ["matplotlib==3.11.2"]
+
+[project.scripts]
+datainvariant = "datainvariant.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this repository when reusing the code or artifacts. The manuscript is not yet peer reviewed."
+title: "DataInvariantBench: Semantic Contracts in Text-to-SQL"
+type: software
+authors:
+  - family-names: Kumar
+    given-names: Shitiz
+    affiliation: Independent Researcher
+version: 0.1.0
+repository-code: "https://github.com/ashitiz8697/DataInvariantBench"
+url: "https://github.com/ashitiz8697/DataInvariantBench"
+license: MIT
+abstract: "Artifacts for a controlled, audited descriptive study comparing schema-only and semantic-contract prompting in text-to-SQL. Human validation remains incomplete."
